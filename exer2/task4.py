@@ -17,6 +17,6 @@ def log_gaussian(x,mu,sigma):
 
 
 p = gaussian(np.linspace(-5.0, 5.0, num=100), 0, 1)
-#plt.plot(np.linspace(-5.0, 5.0, num=100),p)
+plt.plot(np.linspace(-5.0, 5.0, num=100),p)
 pLog = log_gaussian(np.linspace(-5.0, 5.0, num=100), 0, 1)
 plt.plot(np.linspace(-5.0, 5.0, num=100),pLog)
