@@ -18,7 +18,7 @@ y_n= nc + np.sqrt(0.5) * np.random.randn(nc.size)
 
 
 
-y = np.convolve(nc, y_n, 'same')
+y = np.convolve(np.cos(2*np.pi*0.1*nn), y_n, 'same')
 
 
 plt.figure(1)
