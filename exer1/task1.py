@@ -16,3 +16,4 @@ plt.plot(loaded[:,0],loaded[:,1])
 ax = plt.subplot(1, 1, 1, projection = "3d")
 
 plt.plot(loaded[:,0],loaded[:,1], loaded[:,2])
+plt.show()
