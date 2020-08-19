@@ -1,6 +1,0 @@
-C:\Users\farha\source\repos\Alitakinexercise1\Alitakinexercise1\Alitakinexercise1.py:16: 
-MatplotlibDeprecationWarning: Adding an axes using the same arguments as a previous axes currently reuses the earlier instance.
-In a future version, a new instance will always be created and returned.
-Meanwhile, this warning can be suppressed, and the future behavior ensured, by passing a unique label to each axes instance.
-  ax = plt.subplot(1, 1, 1, projection = "3d")
-The program 'python.exe' has exited with code -1 (0xffffffff).
